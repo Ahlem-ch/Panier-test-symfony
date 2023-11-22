@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Ma commande{% endblock %}
+
+{% block body %}
+<h2>Ma commande</h2>
+<div class="row">
+    <div class="col-md-12">
+        <strong class="summary-label">Récapitulatif :</strong>
+        <div class="cart-summary">
+            {% for item in cart.products %}
+                <div class="row">
+                    <div class="col-2 my-auto"><img height="50px" src="/uploads/{{ item.product.image }}" alt="{{ item.product.name }}"></div>
+                    <div class="col-8 my-auto">{{ item.product.name }}</div>
+                    <div class="col-2 my-auto">x{{ item.quantity }}</div>
+                </div>
+            {% endfor %}
+            <hr>
+            <div class="row">
+                <div class="col-10 font-weight-bold">Total</div>
+                <div class="col-2 font-weight-bold">{{ totalPrice }} $</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

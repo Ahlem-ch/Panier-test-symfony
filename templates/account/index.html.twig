@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mon compte{% endblock %}
+
+{% block body %}
+    <h2>Mon compte</h2>
+    Bienvenue dans votre espace membre {{ app.user.firstname }}.
+    <hr>
+    {% for message in app.flashes('notice') %}
+        <div class="alert alert-success">
+            {{ message }}
+        </div>
+    {% endfor %}
+    <div class="list-group">
+     
+        <a href="{{ path('account_password') }}" class="list-group-item list-group-item-action">
+            Modifier mot de passe
+        </a>
+    </div>
+
+
+{% endblock %}
