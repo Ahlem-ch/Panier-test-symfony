@@ -160,9 +160,9 @@ CREATE TABLE IF NOT EXISTS `product` (
 
 INSERT INTO `product` (`id`, `name`, `slug`, `image`, `subtitle`, `description`, `price`) VALUES
 (2, 'Product 1', 'Product-1', '2024-toyota-gr-supra-45th-anniversary-edition-106-648cadc57f6f0.jpg', 'ed | engine | car | parts', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 250),
-(3, 'Product 2', 'Product-2', 'istockphoto-1309717274-612x612.jpg', 'computer | monitor', 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.', 50),
-(4, 'Product 3', 'Product-3', '9b63b18c0cde83590b9e36eaaac34092e430712c.jpg', 'sunglasses', 'Orci ac auctor augue mauris augue. Ornare arcu dui vivamus arcu.', 20),
-(5, 'Product 4', 'Product-4', '360_F_483255019_m1r1ujM8EOkr8PamCHF85tQ0rHG3Fiqz.jpg', 'pants | jeans', 'Pharetra sit amet aliquam id diam. Gravida dictum fusce ut placerat orci. Arcu risus quis varius quam quisque id. Risus sed vulputate odio ut enim blandit.', 75),
+(3, 'Product 2', 'Product-2', 'istockphoto-1309717274-612x612.jpg', 'Computer | monitor', 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.', 50),
+(4, 'Product 3', 'Product-3', 'dc0f8d0f37e4866c5882c01e0841b7f8b271e49d.jpg', 'Sunglasses', 'Orci ac auctor augue mauris augue. Ornare arcu dui vivamus arcu.', 20),
+(5, 'Product 4', 'Product-4', '360_F_483255019_m1r1ujM8EOkr8PamCHF85tQ0rHG3Fiqz.jpg', 'Pants | jeans', 'Pharetra sit amet aliquam id diam. Gravida dictum fusce ut placerat orci. Arcu risus quis varius quam quisque id. Risus sed vulputate odio ut enim blandit.', 75),
 (6, 'Product 5', 'Product-5', 'ee40d9f7990aead7e8695f2eb4599ea1dbb0b1b1.jpg', 'Shirt', 'Id velit ut tortor pretium viverra suspendisse potenti. Mauris a diam maecenas sed enim ut sem.', 10);
 
 
